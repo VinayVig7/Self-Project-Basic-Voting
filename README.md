@@ -25,16 +25,18 @@ A decentralized on-chain voting system written in Solidity. This project enables
 
 ## 📁 Project Structure
 
+```bash
 .
 ├── src/
-│ └── Voting.sol # Main Voting contract
+│   └── Voting.sol              # Main Voting contract
 ├── script/
-│ └── DeployVoting.s.sol # Deployment script using keystore
+│   └── DeployVoting.s.sol      # Deployment script using keystore
 ├── test/
-│ ├── Voting.t.sol # Unit tests for contract logic
-│ └── DeployVotingTest.t.sol # Test for deployment script
-├── foundry.toml # Foundry configuration file
-└── README.md # This file
+│   ├── Voting.t.sol            # Unit tests for contract logic
+│   └── DeployVotingTest.t.sol  # Test for deployment script
+├── foundry.toml                # Foundry configuration file
+└── README.md                   # This file
+```
 
 ---
 
